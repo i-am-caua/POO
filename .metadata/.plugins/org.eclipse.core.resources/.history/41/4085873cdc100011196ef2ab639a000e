@@ -1,0 +1,20 @@
+package Exercios;
+import java.util.Scanner;
+
+public class ex10 {
+
+	public static void main(String[] args) {
+		Scanner input =  new Scanner(System.in);
+		
+		System.out.println("Digite o valor n1: ");
+		double valor1 = input.nextDouble();
+		System.out.println("Digite o valor n2: ");
+		double valor2 = input.nextDouble();
+		
+		System.out.printf("%.1f %% %1.f = %.1f", valor1, valor2, valor1 % valor2);
+		
+		
+		input.close();
+	}
+
+}

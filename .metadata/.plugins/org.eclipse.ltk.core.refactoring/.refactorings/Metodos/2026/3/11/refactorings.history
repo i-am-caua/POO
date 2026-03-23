@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;metodos.Util4&apos; to &apos;Util5&apos;&#x0D;&#x0A;- Original project: &apos;Metodos&apos;&#x0D;&#x0A;- Original element: &apos;metodos.Util4&apos;&#x0D;&#x0A;- Renamed element: &apos;metodos.Util5&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Util4&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;metodos{ex6.java[Util4" matchStrategy="1" name="Util5" qualified="false" references="true" similarDeclarations="false" stamp="1773079456474" textual="false" version="1.0"/>
+</session>

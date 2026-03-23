@@ -1,0 +1,20 @@
+package Exercios;
+import java.util.Scanner;
+
+public class ex12 {
+
+	public static void main(String[] args) {
+		Scanner input =  new Scanner(System.in);
+		
+		System.out.println("Digite o valor peso: ");
+		double valor = input.nextDouble();
+		System.out.println("Digite o valor altura: ");
+		double valor1 = input.nextDouble();
+		
+		
+		System.out.printf("IMC: %.2f", valor / Math.pow(valor1, 2));
+		
+		input.close();
+	}
+
+}

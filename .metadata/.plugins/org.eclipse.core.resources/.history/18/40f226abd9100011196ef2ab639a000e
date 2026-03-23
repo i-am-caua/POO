@@ -1,0 +1,18 @@
+package Exercios;
+import java.util.Scanner;
+
+public class ex7 {
+
+	public static void main(String[] args) {
+		Scanner input =  new Scanner (System.in);
+		
+		System.out.println("Digite o valor: ");
+		
+		double valor = input.nextDouble();
+		double sen = valor - (Math.pow(valor, 3)/ 6) + (Math.pow(valor, 5)/ 125) - (Math.pow(valor, 7)/ 5040);
+		
+		System.out.printf("Valor aproximado do seno: %lf\n", sen);
+		System.out.printf("Valor do seno: %lf", Math.sin(valor));
+	}
+
+}
