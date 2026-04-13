@@ -1,1 +1,9 @@
 .metadata
+.vscode
+.project
+.settings
+.classpath
+.factorypath
+.bin
+.out
+.class
