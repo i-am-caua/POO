@@ -1,9 +1,35 @@
-.metadata
-.vscode
+# ========================
+# IntelliJ IDEA
+# ========================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ========================
+# Eclipse
+# ========================
+.metadata/
 .project
-.settings
 .classpath
+.settings/
 .factorypath
-.bin
-.out
-.class
+bin/
+*.launch
+.buildpath
+
+# ========================
+# VS Code
+# ========================
+.vscode/
+*.code-workspace
+
+# ========================
+# Java compilado
+# ========================
+*.class
+*.jar
+*.war
+*.ear
+target/
