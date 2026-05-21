@@ -1,0 +1,43 @@
+@startuml DiagramaPagamento
+
+class Pagamento {
+  - valor: double
+  - descricao: String
+  + Pagamento(valor: double, descricao: String)
+  + getValor(): double
+  + setValor(valor: double): void
+  + getDescricao(): String
+  + setDescricao(descricao: String): void
+  + exibirDados(): void
+  + processarPagamento(): void
+}
+
+class PagamentoPix {
+  - chavePix: String
+  + PagamentoPix(valor: double, descricao: String, chavePix: String)
+  + getChavePix(): String
+  + setChavePix(chavePix: String): void
+  + processarPagamento(): void {@Override}
+}
+
+class PagamentoCartao {
+  - numeroCartao: String
+  + PagamentoCartao(valor: double, descricao: String, numeroCartao: String)
+  + getNumeroCartao(): String
+  + setNumeroCartao(numeroCartao: String): void
+  + processarPagamento(): void {@Override}
+}
+
+class PagamentoBoleto {
+  - codigoBarras: String
+  + PagamentoBoleto(valor: double, descricao: String, codigoBarras: String)
+  + getCodigoBarras(): String
+  + setCodigoBarras(codigoBarras: String): void
+  + processarPagamento(): void {@Override}
+}
+
+Pagamento <|-- PagamentoPix
+Pagamento <|-- PagamentoCartao
+Pagamento <|-- PagamentoBoleto
+
+@enduml
