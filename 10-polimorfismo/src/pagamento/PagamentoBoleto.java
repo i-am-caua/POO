@@ -1,3 +1,5 @@
+package pagamento;
+
 public class PagamentoBoleto extends Pagamento {
     private String codigoBarras;
 

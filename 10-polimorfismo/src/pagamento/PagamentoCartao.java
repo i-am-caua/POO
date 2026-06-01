@@ -1,3 +1,5 @@
+package pagamento;
+
 public class PagamentoCartao extends Pagamento {
     private String numeroCartao;
 

@@ -1,3 +1,5 @@
+package pagamento;
+
 public class PagamentoPix extends Pagamento {
     private String chavePix;
 

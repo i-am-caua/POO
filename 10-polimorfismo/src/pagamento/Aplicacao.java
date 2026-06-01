@@ -1,3 +1,5 @@
+package pagamento;
+
 public class Aplicacao {
     public static void main(String[] args) {
         PagamentoPix pix = new PagamentoPix(150.00, "Compra online", "joao@email.com");

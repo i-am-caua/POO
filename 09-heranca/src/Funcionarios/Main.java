@@ -1,4 +1,4 @@
-import Funcionarios.*;
+package Funcionarios;
 
 public class Main {
     public static void main(String[] args) {
@@ -20,5 +20,6 @@ public class Main {
         System.out.println();
 
         est.exibirDados();
+       
     }
 }
