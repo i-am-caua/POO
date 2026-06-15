@@ -1,4 +1,5 @@
 @startuml DiagramaPagamento
+skinparam classAttributeIconSize 0
 
 class Pagamento {
   - valor: double
@@ -17,7 +18,7 @@ class PagamentoPix {
   + PagamentoPix(valor: double, descricao: String, chavePix: String)
   + getChavePix(): String
   + setChavePix(chavePix: String): void
-  + processarPagamento(): void {@Override}
+  + processarPagamento(): void
 }
 
 class PagamentoCartao {
@@ -25,7 +26,7 @@ class PagamentoCartao {
   + PagamentoCartao(valor: double, descricao: String, numeroCartao: String)
   + getNumeroCartao(): String
   + setNumeroCartao(numeroCartao: String): void
-  + processarPagamento(): void {@Override}
+  + processarPagamento(): void
 }
 
 class PagamentoBoleto {
@@ -33,7 +34,7 @@ class PagamentoBoleto {
   + PagamentoBoleto(valor: double, descricao: String, codigoBarras: String)
   + getCodigoBarras(): String
   + setCodigoBarras(codigoBarras: String): void
-  + processarPagamento(): void {@Override}
+  + processarPagamento(): void
 }
 
 Pagamento <|-- PagamentoPix

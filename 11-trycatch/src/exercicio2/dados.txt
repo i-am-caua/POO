@@ -1,0 +1,6 @@
+Este é um arquivo de exemplo para o exercício 2.
+Programação Orientada a Objetos - Java
+Tratamento de exceções com try/catch/finally.
+Linha 4: Dados fictícios para teste.
+Linha 5: O programa deve ler e exibir cada linha.
+Fim do arquivo.

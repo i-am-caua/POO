@@ -44,7 +44,7 @@ public class Jogo {
     public void setNumMax (int numMax) {
         this.numMax = numMax;
     }
-    void exibirDados () {
+    public void exibirDados () {
         System.out.println("Título: " + titulo);
         System.out.println("Categoria: " + categoria);
         System.out.println("Número máximo de jogadores: " + numMax);

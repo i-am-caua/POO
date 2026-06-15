@@ -63,7 +63,7 @@ public class Perfil {
     }
 
 
-    void exibirDados () {
+    public void exibirDados () {
         System.out.println ("Nome: " + nome);
         if (conquista.isEmpty()) {
             System.out.println ("Nenhuma conquista obtida.");
